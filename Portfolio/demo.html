@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Cloud Engineer Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+ 
+        header {
+            background-color: #232F3E;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+ 
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+ 
+        nav {
+            text-align: center;
+            background-color: #37475A;
+            padding: 0.5rem;
+        }
+ 
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+ 
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+        }
+ 
+        /* Profile Section */
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+ 
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+ 
+        .profile h2 {
+            font-size: 2rem;
+            margin: 0.5rem 0;
+        }
+ 
+        /* Skills Section */
+        .skills, .certifications {
+            margin-top: 3rem;
+        }
+ 
+        .skills h3, .certifications h3 {
+            text-align: center;
+            color: #232F3E;
+            margin-bottom: 1rem;
+        }
+ 
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+ 
+        .skill {
+            background-color: #FFD814;
+            padding: 1rem 2rem;
+            border-radius: 20px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+ 
+        /* Certification Cards */
+        .cert-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+ 
+        .cert-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 1rem;
+            transition: transform 0.3s;
+        }
+ 
+        .cert-card:hover {
+            transform: translateY(-5px);
+        }
+ 
+        .cert-card img {
+            width: 100%;
+            border-radius: 10px;
+            height: 150px;
+            object-fit: cover;
+        }
+ 
+        .cert-card h4 {
+            margin: 1rem 0 0.5rem 0;
+        }
+ 
+        /* Footer */
+        footer {
+            background-color: #232F3E;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+ 
+    <header>
+        <h1>Shivani Kuntmal</h1>
+        <p>Aspiring AWS Cloud Engineer</p>
+    </header>
+ 
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+    </nav>
+ 
+    <div class="container">
+ 
+        <!-- Profile Section -->
+        <section id="about" class="profile">
+            <div>
+                <img src="images/image4.jpg" alt="Your Photo"> <!-- Add your photo here -->
+                <h2>Hello, I'm Shivani</h2>
+                <p>I'm passionate about building secure, scalable, and reliable solutions on AWS Cloud. I love automating workflows and exploring new cloud services! I'm Btech 5th sem student(IT) from Silver oak university</p>
+            </div>
+        </section>
+ 
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h3>My Skills</h3>
+            <div class="skill-list">
+                <div class="skill">AWS EC2</div>
+                <div class="skill">S3</div>
+                <div class="skill">CloudFormation</div>
+                <div class="skill">Lambda</div>
+                <div class="skill">IAM</div>
+                <div class="skill">Python</div>
+                <div class="skill">DevOps Basics</div>
+            </div>
+        </section>
+ 
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications">
+            <h3>My Certifications</h3>
+            <div class="cert-list">
+                <div class="cert-card">
+                    <img src="images/image.png" alt="AWS Certificate">
+                    <h4>AWS Cloud Practitioner</h4>
+                    <p>Issued: June 2025</p>
+                </div>
+ 
+                <div class="cert-card">
+                    <img src="images/image1.png" alt="Postman Certification">
+                    <h4>Postman API Fundamentals</h4>
+                    <p>Issued: June 2025</p>
+                </div>
+ 
+                <div class="cert-card">
+                    <img src="images/image3.png" alt="Azure AI Certification">
+                    <h4>Microsoft Azure AI Fundamentals</h4>
+                    <p>Issued: June 2025</p>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h3 style="text-align:center; margin-top:3rem;">Contact Me</h3>
+            <p style="text-align:center;">Email:kuntmalshivani21@gmail.com</p>
+            <p style="text-align:center;">LinkedIn: <a href="#" target="_blank">Your LinkedIn</a></p>
+        </section>
+    </div>
+ 
+    <footer>
+        <p>&copy; 2025 Shivani Mahesh | Portfolio</p>
+    </footer>
+ 
+</body>
+</html>
+ 
+ 
